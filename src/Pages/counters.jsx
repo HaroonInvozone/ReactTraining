@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Counter from './counter';
+import Counter from '../component/counter';
 
 class SHowAll extends Component {
     state = { 

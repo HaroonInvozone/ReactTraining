@@ -2,12 +2,12 @@ import React from "react";
 import ReactDOM  from "react-dom";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
-import SHowAll from "./component/counters";
-import Calculator from "./component/calculator";
+import SHowAll from "./Pages/counters";
+import Calculator from "./Pages/calculator";
 import Layout from "./component/Layout";
-import NoPage from "./component/noPage";
+import NoPage from "./Pages/noPage";
 import Home from "./component/home";
-import CustomHook from "./component/customHook";
+import FetchDummyData from "./component/fetchDummyData";
 
 // ReactDOM.render(<SHowAll />, document.getElementById('root'));
 
@@ -21,7 +21,7 @@ export default function App(){
                 <Route index element={<Home />} />
                 <Route path="counter" element={<SHowAll />} />
                 <Route path="calculator" element={<Calculator />} />
-                <Route path="CustomHook" element={<CustomHook/>} />
+                <Route path="CustomHook" element={<FetchDummyData/>} />
                 <Route path="*" element={<NoPage />} />
                 </Route>
             </Routes>

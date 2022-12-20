@@ -1,6 +1,6 @@
-import useFetch from "./useFetch";
+import useFetch from "../Hooks/useFetch";
 
-const CustomHook = () => {
+const FetchDummyData = () => {
     const[data] = useFetch("https://jsonplaceholder.typicode.com/todos");
 
     return(
@@ -17,4 +17,4 @@ const CustomHook = () => {
     )
 }
 
-export default CustomHook;
+export default FetchDummyData;

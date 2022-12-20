@@ -17,7 +17,7 @@ const Layout = () => {
             <Link to="/Calculator">Calculator</Link>
           </li>
           <li>
-            <Link to="/CustomHook">Custome Hook</Link>
+            <Link to="/CustomHook">Custome Hook Implementation</Link>
           </li>
         </ul>
       </nav>

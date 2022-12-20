@@ -2,7 +2,7 @@
 // Import React (Mandatory Step).
 import React from 'react';
 // Import Output Screen Row.
-import OutputScreenRow from './OutputScreenRow';
+import OutputScreenRow from '../component/OutputScreenRow';
 
 // Functional Component.
 // Use to hold two Screen Rows.
