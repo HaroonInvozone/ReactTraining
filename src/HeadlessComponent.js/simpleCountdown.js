@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-    import { calculateTimeLeft } from "../utils";
+import { calculateTimeLeft } from "../utils";
     
     /* 
       All logic are same as previous implementation. 

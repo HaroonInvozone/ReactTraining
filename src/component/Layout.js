@@ -20,9 +20,6 @@ const Layout = () => {
             <Link to="/CustomHook">Custome Hook Implementation</Link>
           </li>
           <li>
-            <Link to="/CountDown">Headless Component</Link>
-          </li>
-          <li>
             <Link to="/pageHC1">Headless Component 1</Link>
           </li>
           <li>

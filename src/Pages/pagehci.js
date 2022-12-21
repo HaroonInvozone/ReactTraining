@@ -1,6 +1,6 @@
 import React from "react";
-import FirstCountdownUI from './first-countdown-ui';
-import useCountdown from './use-countdown'; // importing the custom hook
+import FirstCountdownUI from "../component/FirstCountdownUI";
+import useCountdown from "../Hooks/UseCountdown";
 
 const Pagehci = () => {
   const date = new Date("2021-01-01"); // New year!
