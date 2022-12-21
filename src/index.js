@@ -10,6 +10,7 @@ import Home from "./component/home";
 import FetchDummyData from "./component/fetchDummyData";
 import Pagehci from "./Pages/pagehci";
 import PageHC2 from "./Pages/pagehcs";
+import Forms from "./component/Form";
 
 // ReactDOM.render(<SHowAll />, document.getElementById('root'));
 
@@ -26,6 +27,7 @@ export default function App() {
           <Route path="CustomHook" element={<FetchDummyData />} />
           <Route path="pageHC1" element={<Pagehci />} />
           <Route path="pageHC2" element={<PageHC2 />} />
+          <Route path="Form" element={<Forms />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>

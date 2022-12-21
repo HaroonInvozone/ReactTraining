@@ -25,6 +25,9 @@ const Layout = () => {
           <li>
             <Link to="/pageHC2">Headless Component 2</Link>
           </li>
+          <li>
+            <Link to="/Form">Form</Link>
+          </li>
         </ul>
       </nav>
 

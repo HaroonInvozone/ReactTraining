@@ -14,6 +14,6 @@ const Pagehci = () => {
         isValidFutureDate={isValidFutureDate} 
       />
   );
-}
+};
 
 export default Pagehci;
