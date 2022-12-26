@@ -14,7 +14,7 @@ const FetchDummyData = () => {
                     })
             }
         </>
-    )
-}
+    );
+};
 
 export default FetchDummyData;
