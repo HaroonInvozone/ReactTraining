@@ -3,8 +3,9 @@ import isValid from "date-fns/isValid";
 
 export const calculateTimeLeft  = date =>{
     if (!isValid(date)) return null;
-
-    const difference = new Date(date) - new Date();
+    let comingDate: any = new Date(date);
+    let  currentDate:any = new Date();
+    const difference:any = comingDate - currentDate;
     let timeLeft = {};
 
     if (difference > 0){

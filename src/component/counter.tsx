@@ -1,8 +1,17 @@
 /* eslint-disable react/prop-types */
 import React, { Component } from "react";
 
-class counter extends Component {
+type AppState = {
+
+}
+
+type AppProp = {
+
+}
+
+class counter extends Component<AppProp, AppState> {
   state = {
+    // count: this.props.value,
     count: this.props.value,
     tag: [],
   };
