@@ -1,7 +1,11 @@
-import useFetch from "../Hooks/useFetch.tsx";
+import useFetch from "../Hooks/useFetch.js";
+//when you use generator function
+// import fetchJson from "../Hooks/useFetch.js";
 
 const FetchDummyData = () => {
     const[data] = useFetch("https://jsonplaceholder.typicode.com/todos");
+    
+    // const[data] = fetchJson("https://jsonplaceholder.typicode.com/todos");
 
     return(
         // eslint-disable-next-line react/react-in-jsx-scope

@@ -12,4 +12,17 @@ const useFetch = (url) =>{
     return [data];
 };
 
+//with generator function
+
+// const fetchJson = co.wrap(function * (url: RequestInfo | URL) {
+//     try {
+//         let request = yield fetch(url);
+//         let data = yield request.text();
+//         return JSON.parse(data);
+//     }
+//     catch (error) {
+//         console.log(`ERROR: ${error.stack}`);
+//     }
+// });
+
 export default useFetch;
