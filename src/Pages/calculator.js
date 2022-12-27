@@ -1,8 +1,8 @@
 // Imports.
 import React from 'react';
-import CalculatorTitle from '../component/CalculatorTitle.js';
+import CalculatorTitle from '../component/CalculatorTitle.tsx';
 import OutputScreen from './OutputScreen.js';
-import Button from '../component/button.js';
+import Button from '../component/button.tsx';
 
 class Calculator extends React.Component {
 	render()

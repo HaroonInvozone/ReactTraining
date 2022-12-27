@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import { calculateTimeLeft } from "../Common/ulitities";
+import { calculateTimeLeft } from "../Common/ulitities.tsx";
 
 // All the computation are same as previous, only change is, we directly return the values instead of rendering anything.
 const UseCountdown = date => {

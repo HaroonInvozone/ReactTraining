@@ -1,4 +1,4 @@
-import useFetch from "../Hooks/useFetch";
+import useFetch from "../Hooks/useFetch.tsx";
 
 const FetchDummyData = () => {
     const[data] = useFetch("https://jsonplaceholder.typicode.com/todos");
